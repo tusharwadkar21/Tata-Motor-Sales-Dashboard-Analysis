@@ -48,5 +48,16 @@ The project follows an end-to-end analytics workflow using industry-standard too
   - Cross-filtering
   - Drill-down analysis
   - Executive-level business reporting
-
 ---
+## 📊 Key Performance Indicators
+
+| **Metric** | **Value** |
+|------------|-----------|
+| 💰 **Total Revenue** | **₹ 14.08 Trillion** |
+| 📦 **Total Units Sold** | **375.51 Million** |
+| 🏷️ **Average Sale Price** | **₹ 37.49K** |
+| ⭐ **Average Customer Rating** | **3.25 / 5** |
+| 🗂️ **Total Records Analyzed** | **250,000+** |
+| 🌍 **Countries Covered** | **7** (India, UK, France, Australia, Germany, USA, Japan) |
+| 🧭 **Regions Covered** | **6** (North, South, East, West, Northeast, Central) |
+| 📅 **Time Span** | **2015–2025** |
