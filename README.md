@@ -23,7 +23,7 @@ The project follows an end-to-end analytics workflow using industry-standard too
 ## 🎥 Dashboard Demo
 
 <p align="center">
-  <img src="assets/dashboard_demo.gif" alt="Dashboard Demo" width="1000">
+  <img src="./Tata Motor Sales-PowerBI_Dashboard_Demo.gif" alt="Tata Motors Sales Dashboard Demo" width="1000">
 </p>
 
 ## 🔄 Analytics Pipeline
