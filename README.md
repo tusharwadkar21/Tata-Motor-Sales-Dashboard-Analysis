@@ -1,4 +1,3 @@
-
 ## 🚗 Tata Motors Global Sales Analysis (2015–2025)
 
 > **End-to-End Data Analytics Project | Excel • Python • MySQL • Power BI**
