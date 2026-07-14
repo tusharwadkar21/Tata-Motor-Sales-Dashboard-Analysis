@@ -144,3 +144,66 @@ Tata-Motors-Sales-Analysis/
 │
 └── README.md                               # Project documentation
 ```
+## 🔄 Project Workflow
+
+```
+Raw Sales Data (.xlsx)
+        │
+        ▼
+📄 Microsoft Excel
+(Data Cleaning & Preparation)
+        │
+        ▼
+🐍 Python
+(Data Processing • EDA • Feature Engineering)
+        │
+        ▼
+🗄️ MySQL
+(Database Storage & SQL Analysis)
+        │
+        ▼
+📈 SQL
+(Business Queries & Views)
+        │
+        ▼
+📊 Power BI
+(Interactive Dashboard & Reporting)
+```
+
+### Pipeline Summary
+
+- **Data Ingestion** – Imported raw sales data from Excel using **pandas**.
+- **Data Quality Assessment** – Performed null value, duplicate, and schema validation checks.
+- **Feature Engineering** – Created a **Revenue** column (`Units Sold × Average Sale Price`) and standardized column names.
+- **Exploratory Data Analysis (EDA)** – Analyzed sales performance across countries, regions, sales channels, payment modes, customer gender, and income groups.
+- **Database Migration** – Loaded the cleaned dataset into **MySQL** using **SQLAlchemy** and **mysql-connector-python**.
+- **SQL Analytics** – Developed **17 business analysis queries** and **2 SQL Views** for reporting and insights.
+- **Business Intelligence** – Built an interactive **Power BI dashboard** featuring KPIs, DAX measures, slicers, cross-filtering, and drill-through analysis.
+
+---
+
+## 🐍 Exploratory Data Analysis (Python)
+
+**Notebook:** `Tata_Motors_Sales_Analysis.ipynb`
+
+### Key Activities
+
+- Imported and processed **250,000+ sales records** using **Pandas**.
+- Performed data quality checks, including null values, duplicates, and schema validation.
+- Engineered a **Revenue** column and standardized dataset structure.
+- Generated grouped aggregations by:
+  - Country
+  - Region
+  - Sales Channel
+  - Payment Mode
+  - Customer Gender
+  - Income Group
+- Calculated statistical summaries for customer ratings and age distribution.
+- Created exploratory visualizations to identify sales trends and customer behavior.
+- Exported the cleaned dataset directly to **MySQL** using **SQLAlchemy**.
+
+### Visualizations
+
+- 📊 Revenue by Country (Bar Chart)
+- 🥧 Revenue Share by Sales Channel (Pie Chart)
+- 🔵 Customer Rating vs Revenue (Scatter Plot)
