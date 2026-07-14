@@ -20,6 +20,12 @@ This project presents a comprehensive analysis of **Tata Motors' global sales pe
 
 The project follows an end-to-end analytics workflow using industry-standard tools and best practices across every stage of the data lifecycle.
 
+## 🎥 Dashboard Demo
+
+<p align="center">
+  <img src="assets/dashboard_demo.gif" alt="Dashboard Demo" width="1000">
+</p>
+
 ## 🔄 Analytics Pipeline
 
 - **📄 Microsoft Excel & Power Query**
@@ -207,3 +213,112 @@ Raw Sales Data (.xlsx)
 - 📊 Revenue by Country (Bar Chart)
 - 🥧 Revenue Share by Sales Channel (Pie Chart)
 - 🔵 Customer Rating vs Revenue (Scatter Plot)
+## 🗄️ Database Layer (MySQL)
+
+**Database:** `tatamotors_db`
+
+The project stores the cleaned dataset in a **MySQL relational database**, enabling scalable querying and business analysis. The SQL script (`tatamotors_db.sql`) contains reusable queries and views that support the Power BI dashboard and provide actionable business insights.
+
+<details>
+<summary><b>🔍 Click to View SQL Analyses</b></summary>
+
+| **#** | **Analysis** | **Category** |
+|------:|--------------|--------------|
+| 1 | Total Records Count | Validation |
+| 2 | Total Revenue | Aggregate Query |
+| 3 | Revenue by Country | SQL View |
+| 4 | Revenue by Region | SQL View |
+| 5 | Revenue by Sales Channel | Ranked Query |
+| 6 | Revenue by Year | Trend Analysis |
+| 7 | Top 10 Salespersons by Revenue | Ranked Query |
+| 8 | Revenue by Payment Mode | Aggregate Query |
+| 9 | Country-wise Revenue Ranking | Ranked Query |
+| 10 | Average Customer Rating by Country | Statistical Query |
+| 11 | Revenue by Customer Gender | Comparative Query |
+| 12 | Revenue by Customer Income Group | Comparative Query |
+| 13 | First-Time vs Returning Customer Revenue | Comparative Query |
+| 14 | Insurance Inclusion Impact on Revenue | Comparative Query |
+| 15 | Top 5 Countries by Revenue | Ranked Query |
+| 16 | Total Units Sold | Aggregate Query |
+| 17 | Price Statistics (Minimum, Maximum & Average) | Statistical Query |
+
+</details>
+
+### SQL Concepts Used
+
+- `SELECT`
+- `WHERE`
+- `GROUP BY`
+- `ORDER BY`
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
+- `ROUND()`
+- `CASE`
+- `VIEW`
+- Aggregate Functions
+
+
+## 📊 Business Intelligence Dashboard (Power BI)
+
+**Dashboard File:** `Tata_Motors_Sales_Dashboard.pbix`
+
+The project includes a fully interactive Power BI dashboard built on **250,000+ sales records**, enabling users to analyze revenue, sales performance, customer behavior, and regional trends through dynamic visualizations and filters.
+
+### Dashboard Features
+
+- 💰 **KPI Cards**
+  - Total Revenue
+  - Total Units Sold
+  - Average Sale Price
+  - Average Customer Rating
+
+- 🍩 **Donut Chart**
+  - Revenue Distribution by Sales Channel
+  - *(Online, Direct, Fleet, Dealership)*
+
+- 🥧 **Pie Chart**
+  - Revenue Distribution by Payment Mode
+  - *(Cash, Loan, Lease)*
+
+- 📊 **Stacked Bar Chart**
+  - Revenue by Year and Region (2015–2025)
+
+- 🌍 **Bar Chart**
+  - Revenue by Country
+
+- 📈 **Area / Line Chart**
+  - Year-over-Year Revenue Trend
+
+- 🎛️ **Interactive Slicers**
+  - Year
+  - First-Time Buyer
+  - Customer Gender
+  - Insurance Included
+  - Customer Income Group
+  - Discount Reason
+
+### Power BI Features Used
+
+- DAX Measures
+- Power Query
+- Interactive KPI Cards
+- Dynamic Filtering
+- Cross-filtering & Cross-highlighting
+- Slicers
+- Data Modeling
+- Responsive Dashboard Design
+
+---
+
+## 💡 Key Business Insights
+
+- 🌍 **Germany** generated the highest revenue, followed by **United Kingdom** and **France**, highlighting strong sales performance across the European market.
+- 📦 Revenue is distributed almost evenly across all sales channels, indicating a balanced omnichannel sales strategy.
+- 💳 Customer payment preferences are nearly identical across **Loan**, **Cash**, and **Lease**, with no dominant payment method.
+- 📈 Revenue peaked in **2016** and remained relatively stable with moderate fluctuations through **2025**.
+- ⭐ The average customer rating is **3.25 / 5**, suggesting opportunities to improve customer satisfaction and after-sales service.
+- 💼 **High-income customers** contribute a significant share of total revenue, making them an important target segment for premium vehicle offerings.
+- 🚗 Interactive filters allow users to analyze sales performance by **Year**, **Country**, **Region**, **Sales Channel**, **Customer Segment**, and **Insurance Status**, enabling detailed business exploration.
