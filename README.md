@@ -132,7 +132,7 @@ Tata-Motors-Sales-Analysis/
 │
 ├── data/
 │   ├── Tata_Motors_Sales_Dataset.xlsx      # Sales dataset (250,000+ records)
-│   └── Customers_Dataset.xlsx              # Customer dataset (99,458 records)
+│               
 │
 ├── notebooks/
 │   └── Tata_Motors_Sales_Analysis.ipynb    # Data cleaning, EDA & MySQL upload
