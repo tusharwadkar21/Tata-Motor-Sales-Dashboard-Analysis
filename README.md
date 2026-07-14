@@ -61,3 +61,61 @@ The project follows an end-to-end analytics workflow using industry-standard too
 | 🌍 **Countries Covered** | **7** (India, UK, France, Australia, Germany, USA, Japan) |
 | 🧭 **Regions Covered** | **6** (North, South, East, West, Northeast, Central) |
 | 📅 **Time Span** | **2015–2025** |
+
+## 🛠️ Tech Stack
+
+This project utilizes an end-to-end data analytics technology stack, where each tool plays a specific role in the data pipeline—from data preparation and processing to database management and business intelligence reporting.
+
+| **Layer** | **Tools & Technologies** | **Purpose** |
+|------------|--------------------------|-------------|
+| **Data Source & Preparation** | Microsoft Excel (.xlsx) | Raw sales data storage, data inspection, and initial preparation |
+| **Data Transformation** | Power Query (Excel) | Data profiling, cleaning, and transformation |
+| **Data Processing** | Python (Pandas, NumPy) | Data cleaning, feature engineering, aggregation, and analysis |
+| **Exploratory Data Analysis** | Matplotlib | Statistical visualization and trend analysis |
+| **Database Connectivity** | SQLAlchemy, mysql-connector-python | Data migration from Python to MySQL |
+| **Database Management** | MySQL | Relational database storage and SQL-based analysis |
+| **Business Intelligence** | Power BI Desktop | Interactive dashboard development and reporting |
+| **Data Modeling** | Power Query (Power BI), DAX | Data transformation, modeling, KPIs, and calculated measures |
+| **Development Environment** | Jupyter Notebook | Interactive analysis and documentation |
+| **Version Control** | Git & GitHub | Source code management and project versioning |
+
+---
+
+# 🔧 Technology Deep Dive
+
+### 📄 Microsoft Excel
+- Used for initial data storage, inspection, formatting, and validation before analytical processing.
+- Performed preliminary data cleaning and quality checks.
+
+### 🔄 Power Query (Excel)
+- Profiled and transformed raw datasets.
+- Standardized data types and prepared the data for Python processing.
+
+### 🐍 Python (Pandas & NumPy)
+- Cleaned and transformed **250,000+** sales records.
+- Performed feature engineering and aggregation.
+- Conducted exploratory data analysis (EDA) to uncover sales patterns and trends.
+
+### 📊 Matplotlib
+- Created bar charts, pie charts, and scatter plots for exploratory analysis.
+- Visualized revenue distribution, customer ratings, and regional sales trends.
+
+### 🔗 SQLAlchemy & mysql-connector-python
+- Connected Python with MySQL.
+- Automated data migration from Pandas DataFrames into relational database tables.
+
+### 🗄️ MySQL
+- Stored cleaned sales data in a structured relational database.
+- Executed business analysis using SQL queries, aggregations, and reusable database views.
+
+### 📈 Power BI (Power Query + DAX)
+- Developed a fully interactive dashboard with dynamic KPIs and visualizations.
+- Implemented DAX measures, slicers, cross-filtering, and drill-through functionality.
+- Built executive-level reports for sales performance and customer insights.
+
+### 📓 Jupyter Notebook
+- Provided a reproducible environment for data cleaning, analysis, visualization, and documentation.
+
+### 🌐 Git & GitHub
+- Managed project version control.
+- Hosted the complete project repository and documentation.
